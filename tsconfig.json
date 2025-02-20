@@ -10,11 +10,11 @@
     "noUnusedLocals": true,
     "resolveJsonModule": true,
     "verbatimModuleSyntax": true,
-    "experimentalDecorators": true,               
+    "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "jsx": "preserve",
     "lib": ["esnext", "dom", "dom.iterable"],
-    "types": ["node"]
+    "types": ["node", "vite/client"]
   },
   "include": ["src/*", "rollup.*.*"],
   "exclude": ["**/node_modules/**", "**/dist/**", "playground"],
